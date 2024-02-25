@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110vh;
+}
+header{
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    width: 100%;
+    max-width: 110%;
+}
+h1{
+    margin-bottom: 15px;
+}
+nav, a{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    justify-content: center;
+    color: #222;
+    padding: 8px;
+    margin: 10 10px;
+    text-decoration: none;
+}
+a{
+    width: 7%;
+}
+main{
+    justify-content: center;
+    background-color: #fff;
+    max-width: 70%;
+    margin: auto;
+}
+.group img{
+    padding-top: 7px;
+    padding-bottom: 6px;
+    width: 45%;
+}
+.group p, .group h3{
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.groupi img{
+    padding-top: 19px;
+    padding-bottom: 6px;
+    width: 40%;
+}
+.groupi h3, .groupi p{
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+h2{
+    padding-bottom: 18px;
+}
+.forma h2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.forma p{
+    padding-bottom: 30px;
+}
+.formul h2{
+    padding-top: 24px;
+    padding-bottom: 15px;
+}
+.formul p{
+    margin-bottom: 20px;
+}
+.container{
+    
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: #f0eeee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, button{
+    padding: 8px;
+    font-size: 16px;
+}
+input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 7px;
+    display: block;
+}
+
+button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #333;
+    width: 100%;
+}
+button:hover{
+    background-color: #444;
+}
+.group img:hover{
+    width: 50%;
+}
+.groupi img:hover{
+    width: 45%;
+}
